@@ -1,0 +1,49 @@
+.profile-container-layout {
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  width: 70%;
+  margin: 1rem auto;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.profile-displayname {
+  margin-top: 0.5rem;
+  letter-spacing: 1.5px;
+}
+.profile-email {
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+.profile-verifybtn {
+  margin-left: 0.5rem;
+  text-transform: uppercase;
+  padding: 0.2rem 0.3rem;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  border-radius: 0.3rem;
+  letter-spacing: 1.5px;
+}
+.profile-phonenumber {
+  margin-top: 0.5rem;
+}
+
+.user-photourl {
+  width: 6rem;
+  height: 6rem;
+  border: 2px solid #333;
+  border-radius: 50%;
+}
+.fa-circle-check {
+  margin-left: 0.4rem;
+  color: green;
+  font-size: 1.2rem;
+}
+.fa-circle-xmark {
+  margin-left: 0.4rem;
+  color: red;
+  font-size: 1.2rem;
+}
+.profile-logout {
+  margin-top: 1rem;
+}

@@ -1,0 +1,58 @@
+.navbar {
+  background-color: #f8f8f8;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin: 0 20px;
+}
+.logo-header {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #333;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #555;
+}
+
+.logo img {
+  height: 40px;
+  width: 40px;
+}
+.search-input {
+  width: 18rem;
+  outline: none;
+  font-size: 1rem;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin-top: 0.6rem;
+}
+
+.active-pill {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

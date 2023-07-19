@@ -1,0 +1,96 @@
+.note-card-layout {
+  border: 1px solid;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  width: fit-content;
+  min-width: 16.5rem;
+  height: 9.85rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.note-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.note-card-pin:hover {
+  cursor: pointer;
+}
+.note-card-notes {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+.note-card-label {
+  margin-top: 0.6rem;
+  border: 1px solid;
+  width: fit-content;
+  padding: 0.2rem;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  border-radius: 0.2rem;
+  text-transform: uppercase;
+}
+.note-card-date {
+  font-size: 0.9rem;
+  letter-spacing: 1.5px;
+}
+.note-card-action-btns {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  font-size: 1.1rem;
+}
+.fa-trash-can,
+.fa-pen-to-square,
+.fa-box-archive,
+.fa-trash-can-arrow-up,
+.fa-boxes-packing {
+  cursor: pointer;
+}
+.show-following-container-layout {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  z-index: 3;
+}
+.modal-content {
+  max-height: 85%;
+  /* overflow: scroll; */
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem;
+  width: 40%;
+  min-height: 10.5%;
+  border-radius: 0.6rem;
+  position: relative;
+}
+.del-modal-action-btns {
+  margin-top: 1rem;
+  position: absolute;
+  right: 12px;
+}
+.del-modal-message {
+  color: red;
+  font-size: 1.3rem;
+}
+.modal-cross {
+  color: #ff3b30;
+  font-weight: bold;
+  height: fit-content;
+  border: 1px solid white;
+  border-radius: 0.6rem;
+  padding: 0px 2px;
+}
+.modal-cross:hover {
+  cursor: pointer;
+  border: 1px solid #ff3b30;
+  color: black;
+}

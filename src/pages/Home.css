@@ -1,0 +1,14 @@
+.user-notes-layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  /* border: 1px solid; */
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.home-section-header {
+  margin-left: 1rem;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
